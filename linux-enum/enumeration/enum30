@@ -1,0 +1,14 @@
+ Static hostname: sec335-linux-ah
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 595317a032e340c3aec1ee1132aa5079
+         Boot ID: 9ffd1510633a4b9db7e51ea9b040d6d0
+  Virtualization: kvm
+Operating System: Ubuntu 24.04.1 LTS
+          Kernel: Linux 6.8.0-147-generic
+    Architecture: x86-64
+ Hardware Vendor: QEMU
+  Hardware Model: Standard PC _Q35 + ICH9, 2009_
+Firmware Version: 4.2025.02-4~bpo12+1
+   Firmware Date: Thu 2025-07-10
+    Firmware Age: 1y 3month 2w 4d

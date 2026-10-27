@@ -1,0 +1,109 @@
+clear
+sudo apt install kitty-terminfo
+gzip
+zip
+7z
+sudo apt install 7zip
+clear
+arp -a
+sudo apt install net-tools
+whoami -h
+whoami --help
+clear
+id -h
+id --help
+id -Z
+id -gnru
+id -a
+id -G
+id -Gr
+id -ugG
+id -ugGr
+id -ugG -r
+id -h
+id -u
+id -un
+id -n
+id -Gn
+id -gGn
+id -n
+id 
+ps aux
+ps -h
+ps --help
+ps simple
+ps --help list
+ps --help all
+ps auxr
+ps aux
+ps auxH
+ps auxm
+clear
+ps aux -N --ppid 2
+ps aux 
+ps aux | grep -v "["
+ps aux | grep -v [
+ps aux | grep -v \[
+ps aux | grep -v "\["
+ps auxf
+ps u --ppid 2 -p 2 -N
+ps auxf --ppid 2 -p 2 -N
+ps uxf --ppid 2 -p 2 -N
+ps uf --ppid 2 -p 2 -N
+ps f --ppid 2 -p 2 -N
+ps uf --ppid 2 -p 2 -N
+lsof -i -P -n
+sudo lsof -i -P -n
+systemctl status
+systemctl status | sed -e 's/:.*//'
+cat /etc/passwd | sed -e 's/:.*//'
+clear
+cut -d: -f1 /etc/passwd
+cud -d: -f1 /etc/group
+cut -d: -f1 /etc/group
+sudo -h
+sudo -l
+cat /etc/group
+visudo 
+sudo visudo 
+cat /etc/group- 
+cat /etc/group
+id
+groups
+groups -h
+groups --help
+users
+users --help
+clear
+celar
+clear
+grep -h
+grep adm /etc/group
+grep adm /etc/group | cut -d: -f3
+grep adm /etc/group | cut -d: -f4
+ip a
+ufw
+ufw show
+iptables-save
+sudo iptables-save
+arp -a
+smbstatus
+cat /proc/mounts 
+cat /proc/mounts | grep cifs
+uname
+uname -a
+cat /proc/cpuinfo 
+cat /etc/os-release 
+cat /etc/shadow
+cat /etc/shadow- 
+ls
+vim lolbins_enumeration.sh
+chmod +x lolbins_enumeration.sh 
+./lolbins_enumeration.sh 
+sudo chmod 777 /tmp/enumeration/
+./lolbins_enumeration.sh 
+cat /tmp/enumeration/*
+vim lolbins_enumeration.sh
+clear
+vim lolbins_enumeration.sh
+tmux

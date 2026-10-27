@@ -1,0 +1,12 @@
+COMMAND    PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd      1            root   74u  IPv4   9446      0t0  TCP *:22 (LISTEN)
+systemd      1            root   80u  IPv6   9448      0t0  TCP *:22 (LISTEN)
+systemd-r  634 systemd-resolve   14u  IPv4   5955      0t0  UDP 127.0.0.53:53 
+systemd-r  634 systemd-resolve   15u  IPv4   5956      0t0  TCP 127.0.0.53:53 (LISTEN)
+systemd-r  634 systemd-resolve   16u  IPv4   5957      0t0  UDP 127.0.0.54:53 
+systemd-r  634 systemd-resolve   17u  IPv4   5958      0t0  TCP 127.0.0.54:53 (LISTEN)
+systemd-n  856 systemd-network   22u  IPv4  42168      0t0  UDP 10.10.243.108:68 
+sshd      2497            root    3u  IPv4   9446      0t0  TCP *:22 (LISTEN)
+sshd      2497            root    4u  IPv6   9448      0t0  TCP *:22 (LISTEN)
+sshd      6438            root    4u  IPv4  45283      0t0  TCP 10.10.243.108:22->192.168.99.2:62209 (ESTABLISHED)
+sshd      6495           aidan    4u  IPv4  45283      0t0  TCP 10.10.243.108:22->192.168.99.2:62209 (ESTABLISHED)

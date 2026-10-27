@@ -1,0 +1,5 @@
+Matching Defaults entries for aidan on sec335-linux-ah:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin, use_pty
+
+User aidan may run the following commands on sec335-linux-ah:
+    (ALL : ALL) ALL

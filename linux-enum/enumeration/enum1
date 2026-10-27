@@ -1,0 +1,1 @@
+uid=1000(aidan) gid=1000(aidan) groups=1000(aidan),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd)

@@ -1,0 +1,71 @@
+● sec335-linux-ah
+    State: running
+    Units: 444 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Mon 2026-10-26 04:37:58 UTC; 1 day 12h ago
+  systemd: 255.4-1ubuntu8.18
+   CGroup: /
+           ├─init.scope
+           │ └─1 /sbin/init
+           ├─system.slice
+           │ ├─ModemManager.service
+           │ │ └─988 /usr/sbin/ModemManager
+           │ ├─cron.service
+           │ │ └─878 /usr/sbin/cron -f -P
+           │ ├─dbus.service
+           │ │ └─879 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+           │ ├─fwupd.service
+           │ │ └─5146 /usr/libexec/fwupd/fwupd
+           │ ├─multipathd.service
+           │ │ └─410 /sbin/multipathd -d -s
+           │ ├─polkit.service
+           │ │ └─883 /usr/lib/polkit-1/polkitd --no-debug
+           │ ├─rsyslog.service
+           │ │ └─929 /usr/sbin/rsyslogd -n -iNONE
+           │ ├─ssh.service
+           │ │ └─2497 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+           │ ├─systemd-journald.service
+           │ │ └─359 /usr/lib/systemd/systemd-journald
+           │ ├─systemd-logind.service
+           │ │ └─892 /usr/lib/systemd/systemd-logind
+           │ ├─systemd-networkd.service
+           │ │ └─856 /usr/lib/systemd/systemd-networkd
+           │ ├─systemd-resolved.service
+           │ │ └─634 /usr/lib/systemd/systemd-resolved
+           │ ├─systemd-timesyncd.service
+           │ │ └─638 /usr/lib/systemd/systemd-timesyncd
+           │ ├─systemd-udevd.service
+           │ │ └─udev
+           │ │   └─436 /usr/lib/systemd/systemd-udevd
+           │ ├─udisks2.service
+           │ │ └─897 /usr/libexec/udisks2/udisksd
+           │ ├─unattended-upgrades.service
+           │ │ └─967 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+           │ └─upower.service
+           │   └─1349 /usr/libexec/upowerd
+           └─user.slice
+             └─user-1000.slice
+               ├─session-1.scope
+               │ ├─1008 /bin/login -p --
+               │ └─1253 -bash
+               ├─session-253.scope
+               │ └─6156 tmux
+               ├─session-260.scope
+               │ ├─6438 "sshd: aidan [priv]"
+               │ ├─6495 "sshd: aidan@pts/0"
+               │ ├─6496 -bash
+               │ └─6505 tmux attach
+               └─user@1000.service
+                 ├─init.scope
+                 │ ├─1240 /usr/lib/systemd/systemd --user
+                 │ └─1242 "(sd-pam)"
+                 ├─session.slice
+                 │ └─dbus.service
+                 │   └─6158 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+                 ├─tmux-spawn-683de781-de91-45cc-8195-369af318b236.scope
+                 │ └─6169 -bash
+                 └─tmux-spawn-cc80c439-cfc5-43c3-a2a9-bb435ba7fdd4.scope
+                   ├─6157 -bash
+                   ├─8700 /bin/bash ./lolbins_enumeration.sh
+                   └─8706 systemctl status

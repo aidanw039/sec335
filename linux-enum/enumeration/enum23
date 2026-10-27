@@ -1,0 +1,7 @@
+NAME                      FSTYPE      FSVER            LABEL                           UUID                                   FSAVAIL FSUSE% MOUNTPOINTS
+sda                                                                                                                                          
+├─sda1                    vfat        FAT32                                            453C-949A                                   1G     1% /boot/efi
+├─sda2                    ext4        1.0                                              ec8bd6a0-f4f0-4335-8221-2d51a8a98fb0      1.7G     5% /boot
+└─sda3                    LVM2_member LVM2 001                                         UuYNLt-B4ca-Zg90-LZ0P-u8w0-APVN-AygLQT                
+  └─ubuntu--vg-ubuntu--lv ext4        1.0                                              f666a385-86da-476d-9a05-b8540117e616     51.5G    11% /
+sr0                       iso9660     Joliet Extension Ubuntu-Server 24.04.1 LTS amd64 2024-08-27-15-39-37-00                                
